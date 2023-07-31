@@ -21,7 +21,3 @@ jobs:
     - run: npm i -g npm@latest
     - run: npm install
     - run: npm run test:CI
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
