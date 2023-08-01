@@ -26,7 +26,7 @@ function SimpleDialog(props) {
                         <Box
                             component="img"
                             alt={`${unit} logo`}
-                            src={`/img/units/${img}`}
+                            src={`./img/units/${img}`}
                             sx={{ width: "64px", height: "64px"}}
                         />
                     }

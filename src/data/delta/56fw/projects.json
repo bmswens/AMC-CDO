@@ -30,7 +30,7 @@
     {
         "name": "Guillotine Pylon Rack",
         "description": "This idea behind the racking system is to lower the floor space footprint at Luke AFB AME (Aircraft Munitions Equipment) storage warehouse.  The Guillotine Pylon Rack is a modular system which can lower the floor space footprint by 85%. The rack saves on loading and unloading time utilizing overhead crane systems by 50%.",
-        "image": "https://imgur.com/a/r3eUisE"
+        "image": "https:/./imgur.com/a/r3eUisE"
     },
     {
         "name": "DCP Automation",
@@ -42,12 +42,12 @@
     {
         "name": "Mobile Datacenter",
         "description": "Assembling 2 small form factor PCs (SFFPC), 2 single board computers (SBC), and networking equipment into a single briefcase and preconfiguring with a series of applicaitons for DevSecOps, automation, data science, and AI/ML.",
-        "image": "https://imgur.com/a/jISLnQ9"
+        "image": "https:/./imgur.com/a/jISLnQ9"
     },
     {
         "name": "Project Arc Website",
         "description": "This website brought to you by viewers like you.",
-        "image": "https://imgur.com/a/3ASJpiS",
+        "image": "https:/./imgur.com/a/3ASJpiS",
         "source": "https://github.com/USAF-Project-Arc/USAF-Project-Arc.github.io"
     }
 ]

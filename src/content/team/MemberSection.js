@@ -39,7 +39,7 @@ function MemberAvatar(props) {
         >
             <Avatar
                 alt={member.name}
-                src={`/img/members/${member.img}`}
+                src={`./img/members/${member.img}`}
                 onClick={handleClick}
                 sx={{
                     cursor: member.url ? "pointer" : "default",

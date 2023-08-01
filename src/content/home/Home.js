@@ -51,7 +51,7 @@ function Home(props) {
                     alignItems="center"
                 >
                     <ImageTile
-                        src="/img/misc/home-center-tile.JPG"
+                        src="./img/misc/home-center-tile.JPG"
                         topText="Mission"
                         bottomText={`
                         Project Arc is a grass-roots effort
@@ -63,13 +63,13 @@ function Home(props) {
             </Grid>
             <StackedImages>
                 <ImageTile
-                    src="/img/misc/home-projects-tile.JPG"
+                    src="./img/misc/home-projects-tile.JPG"
                     path="/projects"
                     topText="Projects"
                     bottomText="See what we've done."
                 />
                 <ImageTile
-                    src="/img/misc/home-team-tile.jpg"
+                    src="./img/misc/home-team-tile.jpg"
                     path="/team"
                     topText="Team"
                     bottomText="See our team, past and present."

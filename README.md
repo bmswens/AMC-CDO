@@ -1,6 +1,6 @@
 # AMC CDO Websites
 
-[![Website Status](https://img.shields.io/badge/Website-Live-brightgreen)](https://usaf-project-arc.github.io/)
+[![Website Status](https:/./img.shields.io/badge/Website-Live-brightgreen)](https://usaf-project-arc.github.io/)
 [![Coverage Status](https://coveralls.io/repos/github/USAF-Project-Arc/USAF-Project-Arc.github.io/badge.svg?branch=main)](https://coveralls.io/github/USAF-Project-Arc/USAF-Project-Arc.github.io?branch=main)
 [![Test](https://github.com/USAF-Project-Arc/USAF-Project-Arc.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/USAF-Project-Arc/USAF-Project-Arc.github.io/actions/workflows/test.yml)
 [![Deploy](https://github.com/USAF-Project-Arc/USAF-Project-Arc.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/USAF-Project-Arc/USAF-Project-Arc.github.io/actions/workflows/deploy.yml)

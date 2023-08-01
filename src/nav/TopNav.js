@@ -18,7 +18,7 @@ function TopNav(props) {
                 <Toolbar>
                     <Box
                         component="img"
-                        src="/img/logo.png"
+                        src="./img/logo.png"
                         alt="Project Arc Logo"
                         sx={{
                             height: 42,
