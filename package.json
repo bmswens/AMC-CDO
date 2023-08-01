@@ -1,6 +1,6 @@
 {
-  "name": "project-arc-website",
-  "homepage": ".",
+  "name": "amc-cdo-website",
+  "homepage": "https://bmswens.github.io/AMC-CDO/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
