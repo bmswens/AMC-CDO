@@ -54,9 +54,7 @@ function Home(props) {
                         src="./img/misc/home-center-tile.JPG"
                         topText="Mission"
                         bottomText={`
-                        Project Arc is a grass-roots effort
-                        forging ahead on the 2030 Science and Technology (S&T) strategy and CSAF General Brown's
-                        warning that we must 'Accelerate Change or Lose.'
+                           Our mission is 'Mapping the Fog of War' as a platform for American Airmen support through the Data War Void.
                         `}
                     />
                 </Stack>
@@ -64,9 +62,9 @@ function Home(props) {
             <StackedImages>
                 <ImageTile
                     src="./img/misc/home-projects-tile.JPG"
-                    path="/projects"
-                    topText="Projects"
-                    bottomText="See what we've done."
+                    path="https://usaf.dps.mil/sites/CDO"
+                    topText="SharePoint"
+                    bottomText="See what we are up to."
                 />
                 <ImageTile
                     src="./img/misc/home-team-tile.jpg"
