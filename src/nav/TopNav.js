@@ -19,7 +19,7 @@ function TopNav(props) {
                     <Box
                         component="img"
                         src="./img/logo.png"
-                        alt="Project Arc Logo"
+                        alt="AMC CDO Logo"
                         sx={{
                             height: 42,
                             width: 42,
@@ -44,15 +44,6 @@ function TopNav(props) {
                             Mission
                         </Button>
                     </Link>
-                    <Link to="/">
-                        <Button
-                            sx={{
-                                color: theme.palette.text.primary
-                            }}
-                        >
-                            Projects
-                        </Button>
-                    </Link>
                     <Link to="/team">
                         <Button
                             sx={{
@@ -62,29 +53,20 @@ function TopNav(props) {
                             Team
                         </Button>
                     </Link>
-                    <Link to="/">
-                        <Button
-                            sx={{
-                                color: theme.palette.text.primary
-                            }}
-                        >
-                            Luminaries
-                        </Button>
-                    </Link>
                     <Box sx={{flexGrow: 1}} />
                     <Button
                         variant="contained"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdt6kJDBJmKL4Ee5w0YRCK_vpwWzUzhuNijrOPWAlPDywHC0Q/viewform"
+                        href="https://usaf.dps.mil/sites/CDO"
                         target="_blank"
                         sx={{
                             mr: 1
                         }}
                     >
-                        Apply Now
+                        SharePoint
                     </Button>
                     <Button
                         variant="contained"
-                        href="mailto:projectarc@us.af.mil"
+                        href="mailto:AMC.CDO.ChiefDataOffice@us.af.mil"
                     >
                         Contact Us
                     </Button>
