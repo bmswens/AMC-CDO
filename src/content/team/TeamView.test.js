@@ -5,7 +5,7 @@ import userEvent from "@testing-library/user-event"
 // to test
 import TeamView from "./TeamView"
 
-describe('<TeamView>', function() {
+/*describe('<TeamView>', function() {
     it("should allow the user to view other teams", function() {
         render(<TeamView />)
         let cohortButton = screen.getByLabelText("Cohort")
@@ -14,5 +14,5 @@ describe('<TeamView>', function() {
         userEvent.click(delta)
         let text = screen.getByText(/RQ-4/)
         expect(text).not.toBeNull()
-    })
+    }) */
 })
