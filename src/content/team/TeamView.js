@@ -47,7 +47,6 @@ function TeamView(props) {
                         onChange={event => setCohort(event.target.value)}
                     >
                         <MenuItem value="delta">Cohort Delta</MenuItem>
-                        <MenuItem value="gamma" >Cohort Gamma</MenuItem>
                         <MenuItem value="beta" disabled >Cohort Beta</MenuItem>
                         <MenuItem value="alpha" disabled >Cohort Alpha</MenuItem>
                     </Select>
