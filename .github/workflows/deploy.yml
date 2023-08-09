@@ -7,13 +7,22 @@ on:
       - completed
 
 jobs:
-  # Build job
   build:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-    - uses: actions/checkout@v2
+    - name: Check out the repo
+      uses: actions/checkout@v2
+      
+    - name: Install dependencies
+      run: npm install
 
-    - name: Deploy 
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+    - name: Build
+      run: REACT_APP_DEPLOYMENT=github npm run build
+      
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        cname: amcdatahelp.com
