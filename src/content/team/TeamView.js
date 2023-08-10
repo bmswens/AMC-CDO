@@ -10,7 +10,7 @@ import data from '../../data/data'
 
 function TeamView(props) {
 
-    const [cohort, setCohort] = React.useState("delta")
+    const [cohort, setCohort] = React.useState("2023")
 
     let teamNames = data.getTeams(cohort)
     let teams = teamNames.map(name => data.getTeam(cohort, name))
@@ -46,7 +46,7 @@ function TeamView(props) {
                         value={cohort}
                         onChange={event => setCohort(event.target.value)}
                     >
-                        <MenuItem value="delta">Cohort Delta</MenuItem>
+                        <MenuItem value="2023">2023 Team</MenuItem>
                     </Select>
                 </FormControl>
             </Grid>
