@@ -1,0 +1,33 @@
+ [
+    {
+        "name": "MG Darren Cole",
+        "role": "Chief Data Officer",
+        "afsc": "Pilot",
+        "unit": "AMC/A3",
+        "url": "https://www.af.mil/About-Us/Biographies/Display/Article/1871949/darren-r-cole/",
+        "img": "Cole.jpg"
+    },
+  {
+        "name": "Don Anderson",
+        "role": "Deputy Chief Data Officer",
+        "afsc": "Analyst",
+        "unit": "AMC/A9",
+        "url": "https://www.af.mil/About-Us/Biographies/Display/Article/1871949/darren-r-cole/",
+        "img": "Anderson.jpg"
+    },
+  {
+        "name": "Alexander Kramer",
+        "role": "Action Officer and Data Officionado",
+        "afsc": "Civil Engineer",
+        "unit": "231st Civil Engineer Flight",
+        "url": "https://www.linkedin.com/in/alexander-kramer-5426a766",
+        "img": "Kramer.jpg"
+    },
+    {
+        "name": "Joshua Neustrom",
+        "role": "Action Officer and Teacher of Practical Data Science",
+        "afsc": "Civil Engineer",
+        "unit": "231st Civil Engineer Flight",
+        "img": "Neustrom.png"
+    }
+]
