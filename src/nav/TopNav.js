@@ -35,13 +35,13 @@ function TopNav(props) {
                             Home
                         </Button>
                     </Link>
-                    <Link to="/">
+                    <Link to="https://usaf.dps.mil/sites/CDO">
                         <Button
                             sx={{
                                 color: theme.palette.text.primary
                             }}
                         >
-                            Mission
+                            SharePoint
                         </Button>
                     </Link>
                     <Link to="/team">
@@ -53,17 +53,6 @@ function TopNav(props) {
                             Team
                         </Button>
                     </Link>
-                    <Box sx={{flexGrow: 1}} />
-                    <Button
-                        variant="contained"
-                        href="https://usaf.dps.mil/sites/CDO"
-                        target="_blank"
-                        sx={{
-                            mr: 1
-                        }}
-                    >
-                        SharePoint
-                    </Button>
                     <Button
                         variant="contained"
                         href="mailto:AMC.CDO.ChiefDataOffice@us.af.mil"
