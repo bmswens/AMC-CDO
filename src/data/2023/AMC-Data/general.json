@@ -1,6 +1,6 @@
 {
     "unit": "Air Mobility Command Chief Data Office",
     "location": "Scott Air Force Base, Illinois",
-    "emails": "AMC.CDO.ChiefDataOffice@us.af.mil",
+    "emails": ["AMC.CDO.ChiefDataOffice@us.af.mil"],
     "img": "amc.png"
 }
