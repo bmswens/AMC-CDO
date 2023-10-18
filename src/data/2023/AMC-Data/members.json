@@ -29,5 +29,12 @@
         "afsc": "Civil Engineer",
         "unit": "231st Civil Engineer Flight",
         "img": "JoshN.jpg"
+    },
+   {
+        "name": "Andrew Meudt",
+        "role": "Action Officer an brining data to the warfighter",
+        "afsc": "Solution Architect, Pilot",
+        "unit": "954 Reserve Support Squadron",
+        "img": "AMeudt.PNG"
     }
 ]
